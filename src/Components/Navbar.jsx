@@ -7,8 +7,7 @@ export default function NavBar() {
   return (
     <div className="navbar">
       <div className="navbar-title gradient-text flex">
-        <div>Check Mate</div>
-        <div className="ml-3">♜</div>
+        <div>£inbot</div>
       </div>
       <div className="navbar-button" onClick={() => navigate("/")}>
         Home
