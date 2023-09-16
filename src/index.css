@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+}
+
+.card {
+  @apply bg-white rounded-xl overflow-hidden shadow-lg px-6 py-5;
+}
+
+.navbar { 
+  @apply flex px-5 py-6 shadow
+}
+
+.navbar-button {
+  @apply text-lg invisible lg:visible lg:text-xl lg:mr-10 cursor-pointer lg:pt-1.5 tracking-wide
+}
+
+.navbar-title {
+  @apply text-2xl lg:text-3xl font-semibold lg:ml-5 lg:mr-24
+}
+
+.gradient-text {
+  @apply text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600
+}
+
+.navbar-menu {
+  @apply visible lg:invisible w-5 pt-1
+}
+
+.navbar-menu-dd {
+  @apply card absolute right-5;
+}
+
+.navbar-dd-button {
+  @apply text-lg tracking-wide my-2
+}
