@@ -3,9 +3,11 @@ import ReactDOM from "react-dom/client";
 import Home from "./Home.jsx";
 import Chat from "./Chat.jsx";
 import Budget from "./Budget.jsx";
+import Learn from "./Learn.jsx";
 import "./index.css";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Onboarding from "./Onboarding.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -18,6 +20,14 @@ const router = createBrowserRouter([
   {
     path: "/chat",
     element: <Chat />,
+  },
+  {
+    path: "/onboarding",
+    element: <Onboarding />,
+  },
+  {
+    path: "/learn",
+    element: <Learn />,
   },
 ]);
 

@@ -13,7 +13,7 @@ export default function Chat() {
   const [conversation, setConversation] = useState([
     <ChatResponse
       text={
-        "Hello I'm FinBot! 👋 I'm your own personal fiannce assistant. How can I help you?"
+        "Hello I'm FinBot! 👋 I'm your own personal finance assistant. How can I help you?"
       }
     />,
   ]);
@@ -27,7 +27,7 @@ export default function Chat() {
     <div className="">
       <NavBar />
       <div className="center-page">
-        <div className="lg:card-no-padding pb-14 pt-5 px-6 mt-5 w-[98vw] lg:w-[50vw] h-[87vh] lg:h-[80vh]">
+        <div className="card-no-padding pb-14 pt-5 px-6 mt-5 w-[98vw] lg:w-[50vw] h-[87vh] lg:h-[80vh]">
           <div className="h-full overflow-y-scroll">{conversation}</div>
 
           <div className="flex">

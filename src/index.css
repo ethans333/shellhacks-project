@@ -7,8 +7,12 @@
   font-weight: 400;
 }
 
+body {
+  @apply overflow-x-hidden;
+}
+
 .card {
-  @apply bg-white rounded-xl overflow-hidden shadow-lg px-6 py-5;
+  @apply bg-white rounded-xl shadow-lg px-6 py-5;
 }
 
 .card-no-padding {
@@ -57,4 +61,32 @@ input {
 
 .chat-input {
   @apply text-gray-500 w-auto max-w-sm text-right ml-auto mb-10 bg-userinp text-white px-3 py-2 rounded-md
+}
+
+h1 {
+  @apply font-semibold text-2xl;
+}
+
+.select-box {
+  @apply border-2 rounded-md p-2 text-gray-500 my-1.5 hover:cursor-pointer hover:bg-gray-100
+}
+
+.select-box-color {
+  @apply border-2 rounded-md p-2 my-1.5 hover:cursor-pointer
+}
+
+.money-text {
+  @apply text-transparent bg-clip-text bg-money-bg bg-contain
+}
+
+h2 {
+  @apply font-semibold text-xl;
+}
+
+h3 {
+  @apply font-semibold text-lg;
+}
+
+.topic-button {
+  @apply w-fit px-3 py-0.5 rounded-xl text-white mr-1 mt-1 hover:opacity-70 cursor-pointer
 }

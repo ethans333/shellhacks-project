@@ -7,16 +7,19 @@ export default function NavBar() {
   return (
     <div className="navbar">
       <div className="navbar-title gradient-text flex">
-        <div>£inbot</div>
+        <div>ƒinboʈ</div>
       </div>
       <div className="navbar-button" onClick={() => navigate("/")}>
         Home
       </div>
       <div className="navbar-button" onClick={() => navigate("/budget")}>
-        Budget
+        Budget 📊
       </div>
       <div className="navbar-button" onClick={() => navigate("/chat")}>
-        Chat
+        Chat 💬
+      </div>
+      <div className="navbar-button" onClick={() => navigate("/learn")}>
+        Learn 🎓
       </div>
       <NavBarMenu />
     </div>

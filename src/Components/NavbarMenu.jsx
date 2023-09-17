@@ -16,13 +16,16 @@ export default function NavBarMenu() {
       {isShowing && (
         <div className="navbar-menu-dd">
           <div className="navbar-dd-button" onClick={() => navigate("/")}>
-            Home
+            🏠 Home
           </div>
           <div className="navbar-dd-button" onClick={() => navigate("/budget")}>
-            Budget
+            📊 Budget
           </div>
           <div className="navbar-dd-button" onClick={() => navigate("/chat")}>
-            Chat
+            💬 Chat
+          </div>
+          <div className="navbar-dd-button" onClick={() => navigate("/learn")}>
+            🎓 Learn
           </div>
         </div>
       )}
