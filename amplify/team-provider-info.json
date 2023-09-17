@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-shellhacksproject-dev-111454-authRole",
+      "UnauthRoleArn": "arn:aws:iam::554627486425:role/amplify-shellhacksproject-dev-111454-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::554627486425:role/amplify-shellhacksproject-dev-111454-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-shellhacksproject-dev-111454-deployment",
+      "UnauthRoleName": "amplify-shellhacksproject-dev-111454-unauthRole",
+      "StackName": "amplify-shellhacksproject-dev-111454",
+      "StackId": "arn:aws:cloudformation:us-west-2:554627486425:stack/amplify-shellhacksproject-dev-111454/6e32b870-554b-11ee-bc19-02d538ec282f",
+      "AmplifyAppId": "d156nk50tykzqq"
+    },
+    "categories": {
+      "auth": {
+        "shellhacksproject53cfa476": {}
+      }
+    }
+  }
+}
