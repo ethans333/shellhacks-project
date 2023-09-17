@@ -1,5 +1,5 @@
 const requestData = {
-  messages: "hi there",
+  messages: "what is my name?",
 };
 
 fetch("https://do4p2218i6.execute-api.us-east-1.amazonaws.com/dev/chat", {

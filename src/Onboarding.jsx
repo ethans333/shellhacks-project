@@ -28,7 +28,6 @@ export default function Onboarding() {
         Explanation: val,
       };
     });
-    setSlide(0);
   };
 
   const renderSlide = () => {
@@ -144,10 +143,6 @@ export default function Onboarding() {
     }
   };
 
-  if (slide > nSlides) {
-    console.log(data);
-  }
-
   return (
     <div className="center-page mt-[30vh]">
       <div className="flex">
@@ -163,7 +158,10 @@ export default function Onboarding() {
         </div>
         <img
           className="w-4 cursor-pointer"
-          onClick={() => setSlide(slide + 1)}
+          onClick={() => {
+            setSlide(slide + 1);
+            if (slide >= nSlides) console.log(data);
+          }}
           src={rightarrow}
         />
       </div>

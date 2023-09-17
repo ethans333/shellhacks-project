@@ -5,8 +5,6 @@ export default {
     extend: {
       backgroundImage: {
         "money-bg": "url('./assets/MoneyBGCyan.jpeg')",
-        "ucf-image":
-          "url('https://wemertgrouprealty.com/wp-content/uploads/2022/04/university-of-central-florida-wemert-group.jpg')",
       },
       colors: {
         aires: "#F2F4F5",
