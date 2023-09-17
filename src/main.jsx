@@ -2,7 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import Home from "./Home.jsx";
 import Chat from "./Chat.jsx";
-import Budget from "./Budget.jsx";
 import Learn from "./Learn.jsx";
 import "./index.css";
 
@@ -12,10 +11,6 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
-  },
-  {
-    path: "/budget",
-    element: <Budget />,
   },
   {
     path: "/chat",

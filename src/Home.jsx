@@ -2,7 +2,6 @@ import { useState } from "react";
 import NavBar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import AI_Image from "./assets/AISS.png";
-import Hero_Image from "./assets/Hero_Image.jpeg";
 
 export default function Home() {
   return (
@@ -10,16 +9,15 @@ export default function Home() {
       <NavBar />
       <div>
         <div className="center-page">
-          <div className="bg-hero-bg text-center w-full">
-            <div className="font-semibold mt-10 text-9xl money-text">
+          <div className="bg-hero-bg bg-cover bg-center backdrop-blur-md text-center w-full">
+            <div className="font-semibold mt-10 mb-10 text-9xl money-text">
               ƒinboʈ
             </div>
-            <div className="text-center text-gray-400 font-weight-light mt-10 w-3/4 lg:w-full">
-              {/* Your Own Personal Finance Assistant, ⚡ by AI. */}
-              Empower Your Financial Future Subtitle: Your Path to Financial
-              Freedom Starts Here Upload Hero Image from Assets Folder Button
-              Get Started
-            </div>
+          </div>
+          <div className="text-center text-gray-400 font-weight-light mt-10 w-3/4 lg:w-full">
+            {/* Your Own Personal Finance Assistant, ⚡ by AI. */}
+            Empower Your Financial Future. Your Path to Financial Freedom Starts
+            Here!
           </div>
           <div className="grid mt-32 grid-cols-1 lg:grid-cols-2 lg:w-3/5 mx-10">
             <div className="font-semibold mt-5 text-4xl lg:text-5xl w-3/4">
