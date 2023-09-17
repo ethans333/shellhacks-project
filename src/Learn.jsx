@@ -23,6 +23,20 @@ export default function Learn() {
                 category="Losfge"
               />
             </div>
+            <div onClick={() => setSelectedQuiz(1)}>
+              <QuizPreview
+                title="Aliquip ut irure aute."
+                desc="Aliquip ut irure aute consequat duis duis aliquip ex ut duis duis aliquip ex ut."
+                category="Losfge"
+              />
+            </div>
+            <div onClick={() => setSelectedQuiz(2)}>
+              <QuizPreview
+                title="Aliquip ut irure aute."
+                desc="Aliquip ut irure aute consequat duis duis aliquip ex ut duis duis aliquip ex ut."
+                category="Losfge"
+              />
+            </div>
           </div>
         ) : (
           // Article
@@ -33,7 +47,20 @@ export default function Learn() {
                 Ut laboris adipisicing tempor fugiat occaecat ea. Nostrud quis
                 ullamco dolore eiusmod occaecat dolor. Ipsum culpa magna
                 consectetur sit sint reprehenderit occaecat do aliqua tempor
-                nisi qui ullamco pariatur...
+                nisi qui ullamco pariatur. Voluptate voluptate magna enim do
+                sint. Ut laboris adipisicing tempor fugiat occaecat ea. Nostrud
+                quis ullamco dolore eiusmod occaecat dolor. Ipsum culpa magna
+                consectetur sit sint reprehenderit occaecat do aliqua tempor
+                nisi qui ullamco pariatur. Voluptate voluptate magna enim do
+                sint. Ut laboris adipisicing tempor fugiat occaecat ea. Nostrud
+                quis ullamco dolore eiusmod occaecat dolor. Ipsum culpa magna
+                consectetur sit sint reprehenderit occaecat do aliqua tempor
+                nisi qui ullamco pariatur. Voluptate voluptate magna enim do
+                sint. Ut laboris adipisicing tempor fugiat occaecat ea. Nostrud
+                quis ullamco dolore eiusmod occaecat dolor. Ipsum culpa magna
+                consectetur sit sint reprehenderit occaecat do aliqua tempor
+                nisi qui ullamco pariatur. Voluptate voluptate magna enim do
+                sint.
               </div>
             </div>
             <div className="col-span-2 mt-32 lg:mt-0 mx-5 lg:mx-0">
