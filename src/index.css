@@ -94,3 +94,7 @@ h3 {
 .topic-button {
   @apply w-fit px-3 py-0.5 rounded-xl text-white mr-1 mt-1 hover:opacity-70 cursor-pointer
 }
+
+.quiz-question {
+  @apply cursor-pointer hover:text-gray-500 mb-2
+}
