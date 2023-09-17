@@ -5,6 +5,7 @@ export default {
     extend: {
       backgroundImage: {
         "money-bg": "url('./assets/MoneyBGCyan.jpeg')",
+        "hero-bg": "url('./assets/Hero_Image.jpeg')",
       },
       colors: {
         aires: "#F2F4F5",
