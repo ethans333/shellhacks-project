@@ -24,7 +24,7 @@ body {
 }
 
 .navbar-button {
-  @apply text-lg invisible lg:visible lg:mr-16 cursor-pointer lg:pt-1.5 tracking-wide
+  @apply font-semibold text-lg invisible lg:visible lg:mr-16 cursor-pointer lg:pt-1.5 hover:opacity-50
 }
 
 .navbar-title {
@@ -52,7 +52,7 @@ body {
 }
 
 .center-page {
-  @apply flex flex-col items-center min-h-screen h-screen text-black overflow-x-hidden;
+  @apply flex flex-col items-center text-black overflow-x-hidden;
 }
 
 input {
