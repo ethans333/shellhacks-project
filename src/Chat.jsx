@@ -26,7 +26,7 @@ export default function Chat() {
   return (
     <div className="">
       <NavBar />
-      <div className="center-page">
+      <div className="center-page py-5">
         <div className="card-no-padding pb-14 pt-5 px-6 mt-5 w-[98vw] lg:w-[50vw] h-[87vh] lg:h-[80vh]">
           <div className="h-full overflow-y-scroll">{conversation}</div>
 

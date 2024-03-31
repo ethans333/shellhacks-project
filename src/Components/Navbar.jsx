@@ -13,10 +13,10 @@ export default function NavBar() {
         Home
       </div>
       <div className="navbar-button" onClick={() => navigate("/chat")}>
-        Chat 💬
+        Chat
       </div>
       <div className="navbar-button" onClick={() => navigate("/learn")}>
-        Learn 🎓
+        Learn
       </div>
       <NavBarMenu />
     </div>

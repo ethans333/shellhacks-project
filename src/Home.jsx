@@ -9,7 +9,7 @@ export default function Home() {
       <NavBar />
       <div>
         <div className="center-page">
-          <div className="bg-hero-bg w-full shadow-lg">
+          <div className="bg-hero-bg w-full shadow">
             <div className="backdrop-filter backdrop-blur-lg bg-gradient-to-b from-white to-opacity-0 text-center w-full bg-stretch py-24">
               <div className="font-semibold text-9xl money-text">ƒinboʈ</div>
             </div>
@@ -37,7 +37,7 @@ export default function Home() {
                 securing your retirement, our resources will guide you every
                 step of the way.
               </div>
-              <div className="font-semibold text-4xl lg:ml-32 lg:text-5xl mb-10">
+              <div className="font-semibold text-4xl order-first lg:order-last lg:ml-32 lg:text-5xl mb-10">
                 Personalized Financial Education 🎓
               </div>
             </div>
@@ -61,7 +61,7 @@ export default function Home() {
                 barriers and empower immigrant communities worldwide. Financial
                 freedom knows no borders.{" "}
               </div>
-              <div className="font-semibold text-4xl lg:ml-32 lg:text-5xl mb-10">
+              <div className="font-semibold text-4xl lg:ml-32 lg:text-5xl mb-10 order-first lg:order-last">
                 Multilingual Support 🌍
               </div>
             </div>
@@ -82,7 +82,7 @@ export default function Home() {
               <div>
                 <img className="" src={AI_Image} />
               </div>
-              <div>
+              <div className="order-first lg:order-last mb-24 lg:mb-0">
                 <div className="font-semibold mt-5 text-4xl lg:ml-32 lg:text-5xl">
                   🤖 Meet Your Financial Ally
                 </div>
