@@ -14,17 +14,13 @@ Amplify.configure({
   },
 });
 
-const response = await API.post("api", "/education", {
-  headers: {
-    "Content-Type": "application/json",
-  },
-  body: {
-    Name: "Ethan",
-    Age: "21",
-    Goal: "Purchase a Home",
-    Explanation: "Explain like im in a student in highschool.",
-    Language: "English",
-  },
-});
-
-console.log(response);
+export default async function sendMessage(message) {
+  return await API.post("api", "/chat", {
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: {
+      messages: message,
+    },
+  });
+}

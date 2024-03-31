@@ -2,7 +2,6 @@ import { useState } from "react";
 import NavBar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import AI_Image from "./assets/AISS.png";
-import Hero_Image from "./assets/Hero_Image.jpeg";
 
 export default function Home() {
   return (

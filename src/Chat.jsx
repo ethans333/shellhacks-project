@@ -4,7 +4,7 @@ import ChatResponse from "./Components/ChatResponse";
 import paperclip from "../src/assets/paperclip-solid.svg";
 import arrow from "../src/assets/arrow-right-solid.svg";
 import React, { useRef, useState } from "react";
-import chat from "../src/Backend/chat";
+import sendMessage from "./Backend/sendMessage";
 
 export default function Chat() {
   const fileInputRef = useRef(null);
@@ -13,7 +13,7 @@ export default function Chat() {
   const [conversation, setConversation] = useState([
     <ChatResponse
       text={
-        "Hello I'm FinBot! 👋 I'm your own personal finance assistant. How can I help you?"
+        "Hello there! 👋 I'm FinBot, your friendly financial literacy assistant! How can I help you today?"
       }
     />,
   ]);
@@ -33,7 +33,7 @@ export default function Chat() {
           <div className="flex">
             <input
               className="w-full"
-              placeholder="Type Here"
+              placeholder="Talk Here"
               value={userInput}
               onChange={(e) => setUserInput(e.target.value)}
               onKeyPress={async (e) => {
@@ -46,7 +46,7 @@ export default function Chat() {
                     <ChatResponse text={"⏳"} />,
                   ]);
 
-                  const res = await chat(userInput);
+                  const res = await sendMessage(userInput);
 
                   setConversation((prev) => {
                     const updatedConversation = [...prev];
@@ -59,18 +59,7 @@ export default function Chat() {
                 }
               }}
             />
-            <input
-              type="file"
-              ref={fileInputRef}
-              onChange={handleFileSelect}
-              className="hidden"
-            />
-            <img
-              className="w-4 cursor-pointer mx-2"
-              src={paperclip}
-              onClick={() => fileInputRef.current.click()}
-            />
-            <img className="w-4 cursor-pointer" src={arrow} />
+            <img className="ml-5 w-4 cursor-pointer" src={arrow} />
           </div>
         </div>
       </div>

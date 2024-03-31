@@ -12,9 +12,6 @@ export default function NavBar() {
       <div className="navbar-button" onClick={() => navigate("/")}>
         Home
       </div>
-      <div className="navbar-button" onClick={() => navigate("/budget")}>
-        Budget 📊
-      </div>
       <div className="navbar-button" onClick={() => navigate("/chat")}>
         Chat 💬
       </div>

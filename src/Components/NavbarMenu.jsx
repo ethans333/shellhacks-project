@@ -18,9 +18,6 @@ export default function NavBarMenu() {
           <div className="navbar-dd-button" onClick={() => navigate("/")}>
             🏠 Home
           </div>
-          <div className="navbar-dd-button" onClick={() => navigate("/budget")}>
-            📊 Budget
-          </div>
           <div className="navbar-dd-button" onClick={() => navigate("/chat")}>
             💬 Chat
           </div>
